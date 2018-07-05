@@ -8,4 +8,5 @@ function division(num1,num2){
         result = error.message;
     }
     document.getElementById("resultSection").innerHTML = result;
+
 }
