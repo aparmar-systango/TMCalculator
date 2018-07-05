@@ -7,5 +7,5 @@ function division(num1,num2){
     catch(error){
         result = error.message;
     }
-    document.getElementById("").innerHTML = result;
+    document.getElementById("resultSection").innerHTML = result;
 }
