@@ -9,7 +9,7 @@ function substract(num1,num2){
     }catch(error){
 		result=error.message;
     }
-    document.getElementById('resultSection').innerHTML=difference;
+    document.getElementById('resultSection').innerHTML=result;
 	}
 
 	
