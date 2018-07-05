@@ -7,12 +7,20 @@
         <center>
             <table>
                 <tr>
-                    <td><b>Number 1 : </b></td>
-                    <td><input type='number'  id='num1'/>
+                    <td colspan="2"><b>Number 1 : </b></td>
+                    <td colspan="2"><input type='number'  id='num1'/>
                 </tr>
                 <tr>
-                    <td><b>Number 2 : </b></td>
-                    <td><input type='number' id="num2" /></td>
+                    <td colspan="2"><b>Number 2 : </b></td>
+                    <td colspan="2"><input type='number' id="num2" /></td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <b>Result : </b>
+                    </td>
+                    <td>
+                        <b><span id='resultSection'>&nbsp;</span></b>
+                    </td>
                 </tr>
                 <tr>
                     <td><button type="button" onclick="add(document.getElementById('num1').value,document.getElementById('num2').value)">Add</button></td>
@@ -20,14 +28,7 @@
                     <td><button type="button" onclick="multiply(document.getElementById('num1').value,document.getElementById('num2').value)">Multiply</button></td>
                     <td><button type="button" onclick="division(document.getElementById('num1').value,document.getElementById('num2').value)">Divide</button></td>
                 </tr>
-                <tr>
-                    <td>
-                        <b>Result : </b>
-                    </td>
-                    <td>
-                        <b><span id='resultSection'>&nbsp;</span></b>
-                    </td>
-                </tr>
+                
             </table>
         </center>
     </body>
