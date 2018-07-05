@@ -13,7 +13,7 @@ function division(num1,num2){
     catch(error){
         result = error.message;
     }
-    document.getElementById("resultSection").innerHTML = result;
+    document.getElementById("resultSection").innerHTML = result.toFixed(2);
 
 }
 function substract(num1,num2){ 
@@ -31,5 +31,6 @@ function substract(num1,num2){
 function multiply(num1, num2)
 {
 	var result= num1*num2;
-	document.getElementById("resultSection").innerHTML = result;
+	
+	document.getElementById("resultSection").innerHTML = result.toFixed(2);
 }
