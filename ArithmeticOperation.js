@@ -1,3 +1,4 @@
+
 function division(num1,num2){
     var result;
     try
@@ -10,6 +11,7 @@ function division(num1,num2){
     document.getElementById("resultSection").innerHTML = result;
 
 }
+<<<<<<< HEAD
 function substract(num1,num2){ 
 	var result;
 	try{   
@@ -21,3 +23,12 @@ function substract(num1,num2){
 	}
 
 	
+=======
+
+function multiply(num1, num2)
+{
+	var result= num1*num2;
+	document.getElementById("resultSection").innerHTML = result;
+}
+
+>>>>>>> d29ee64a156a74cc02e557518829ddea07fe6a8b
