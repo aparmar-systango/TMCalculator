@@ -19,11 +19,12 @@ function division(num1,num2){
     try
     {
         result = num1/num2;
+	result = result.toFixed(2);
     }
     catch(error){
         result = error.message;
     }
-    document.getElementById("resultSection").innerHTML = result.toFixed(2);
+    document.getElementById("resultSection").innerHTML = result;
 
 }
 function substract(num1,num2){ 
