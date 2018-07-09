@@ -4,11 +4,15 @@ if(num1.trim().length==0 ||num2.trim().length==0 ){
     document.getElementById("resultSection").innerHTML = 'please provide both numbers';
    return;
 }
-
+try{
 result =  num1+num2;
+}
+catch(error){
+result=error.message;
+}
 document.getElementById("resultSection").innerHTML = result;
 }
-
+ 
 function division(num1,num2){
     var result;
     document.getElementById("resultSection").innerHTML = "";
